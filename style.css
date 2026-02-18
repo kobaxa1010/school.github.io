@@ -1,0 +1,24 @@
+
+@media (max-width: 768px) {
+    body {
+        flex-direction: column; /* მარცხენა და მარჯვენა ერთზე ქვემოთ */
+        height: auto;
+    }
+
+    .left, .right {
+        width: 100%;
+    }
+
+    .input-box, button {
+        width: 90%; /* ცოტა მარტივად დატოვებს input-ებს */
+    }
+
+    .right img {
+        height: 200px; /* არ დაიჭერდეს ძალიან დიდ სურათზე */
+        object-fit: contain;
+    }
+
+    .waves {
+        height: 100px; /* მოკლე კლაკლინები */
+    }
+}
